@@ -162,7 +162,7 @@ background-color: gold;}
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(3.5) rotateY(0deg);
-    font-size: 30%;
+    font-size: 20%;
     z-index: 3;  
     width: 150px;
     height: 100px;
