@@ -69,6 +69,14 @@ for (let d = new Date(startDate), i = 0; d <= endDate; d.setDate(d.getDate() + 1
     <div class="days-left">${remainingDays - 1}</div>
   `;
 
+  // הוספת מחלקה days-43 אוטומטית ליום עם 43 ימים
+  if (remainingDays - 1 === 43) {
+    setTimeout(() => {
+      const daysLeftDiv = right.querySelector('.days-left');
+      if (daysLeftDiv) daysLeftDiv.classList.add('days-43');
+    }, 0);
+  }
+
 
 
   front.appendChild(right);
